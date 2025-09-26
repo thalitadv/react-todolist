@@ -1,0 +1,54 @@
+.task-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tasks li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 9px;
+  transition: all 600ms;
+  background-color: #f4f4f4;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.tasks li:hover {
+  background: #fcfcfc;
+}
+
+.tasks li.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.tasks li .edit,
+.tasks li .delete {
+  margin-right: 15px;
+  color: #a88ae1;
+}
+
+.tasks li .edit:hover,
+.tasks li .delete:hover {
+  color: #795cb0;
+}
+
+.tasks li .edit,
+.tasks li .delete {
+  cursor: pointer;
+}
+
+.tasks li span {
+  display: flex;
+  align-items: center;
+}
+
+.tasks li input[type='checkbox'] {
+  accent-color: #a88ae1;
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}

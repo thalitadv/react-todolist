@@ -1,0 +1,15 @@
+.progress-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.progress-circle {
+  width: 70px;
+}
+
+.status-text {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
