@@ -14,4 +14,5 @@ Aplicação de lista de tarefas feita em **React**, com salvamento no `localStor
 - Barra de progresso 
 - Persistência de dados no navegador (localStorage)
 
-## Link para o projeto
+## Link para o site
+https://todolist-app-tan-ten.vercel.app
